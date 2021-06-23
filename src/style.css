@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap");
+body {
+margin: 0;
+font-family: "Noto Sans TC";
+overflow-x: hidden;
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_bar {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 360px;
+    background-color: #222;
+    color: #eee;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    border-radius: 5px 5px 0 0;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 360px;
+    background-color: #eee;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    background-color: #222;
+    color: #eee;
+    outline: none;
+    cursor: pointer;
+}
+
+.addForm {
+    background-color: #222;
+    padding: 50px;
+    width: 360px;
+    height: auto;
+    margin: 10px;
+    margin-top: 20px;
+    color: #eee;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+input {
+    height: 25px;
+    width: 200px;
+    border: 1px solid #222;
+    padding: 2px;
+  }
+
+.add {
+    padding: 5px 15px;
+    margin-left: 30px;
+    border: 1px solid #eee;
+    float: right;
+    color: #eee;
+    background-color: #222;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+.list {
+    margin-top: 30px;
+}
+
+p {
+    margin: 10px 5px;
+    background-color: #666;
+    padding: 5px;
+}
+
+.faicons {
+    padding: 5px 15px;
+    color: #eee;
+    background-color: #222;
+    cursor: pointer;
+    width: 18px;
+    float: right;
+}
